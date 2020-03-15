@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #45B3C4;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.buffer {
+    height: 45%;
+}
+
+h1 {
+    height: 50px;
+    margin: auto;
+}
+
+button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: auto;
+}
